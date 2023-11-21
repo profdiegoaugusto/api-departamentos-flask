@@ -15,6 +15,7 @@
 ```
 pip install -U Flask
 pip install -U Flask-SQLAlchemy
+pip install flask-mysqldb
 ```
 
 # Organizando o Projeto
