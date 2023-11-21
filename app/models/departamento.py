@@ -7,8 +7,8 @@ class Departamento(Base):
 
     __tablename__ = 'Departamento'
 
-    id = Column(BigInteger, primary_key=True, autoincrement=True)
-    nome = Column(String(75))
+    id_departamento = Column(BigInteger, primary_key=True, autoincrement=True)
+    nome_departamento = Column(String(75))
     descricao = Column(Text, nullable=True)
 
     def __init__(self, nome=None, descricao=None):
@@ -16,4 +16,4 @@ class Departamento(Base):
         self.descricao = descricao
 
     def __repr__(self):
-        return f'<Departamento {self.nome!r}>'
+        return f'<Departamento {self.nome_departamento!r}>'

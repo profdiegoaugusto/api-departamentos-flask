@@ -14,6 +14,8 @@ def create_app():
 
     init_db()
 
+
+
     # Registra os blueprints (classes de controle)
 
     return app
