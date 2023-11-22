@@ -12,7 +12,7 @@ class Departamento(Base):
     descricao = Column(Text, nullable=True)
 
     def __init__(self, nome=None, descricao=None):
-        self.nome = nome
+        self.nome_departamento = nome
         self.descricao = descricao
 
     def __repr__(self):
